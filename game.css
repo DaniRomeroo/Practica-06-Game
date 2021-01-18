@@ -25,6 +25,12 @@ html {
 	}
 }
 
+ul{
+	margin-left: 92%;
+	margin-top: -2.5%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .gamebutton {
 	border: none;
 	background: #ddd;
