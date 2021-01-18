@@ -43,7 +43,7 @@ ul{
 }
 
 body button:hover {
-	background-color:rgb(7, 26, 78);
+	background-color:rgb(62, 95, 187);
 	transition: all 0.5s;
 	border-radius: 10%;
 	color: white;
