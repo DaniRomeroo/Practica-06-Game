@@ -1,5 +1,6 @@
 html {
   overflow: hidden;
+  background-color: rgb(92, 167, 95);
 }
 
 .Opponent {
@@ -36,7 +37,7 @@ html {
 }
 
 body button:hover {
-	background-color:purple;
+	background-color:rgb(7, 26, 78);
 	transition: all 0.5s;
 	border-radius: 10%;
 	color: white;
