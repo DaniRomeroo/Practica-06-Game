@@ -1,7 +1,10 @@
 setTimeout( function ()
 {
     document.getElementById( 'loader' ).style.transform = "scale(0)";
-
+    var game;
+    game = new Game();
+    game.start();
+    
 }, 4000 );
 
     const OPPONENT_HEIGHT = 5,
@@ -41,10 +44,4 @@ setTimeout( function ()
             b = div2.getBoundingClientRect();
         return !(a.bottom < b.top || a.top > b.bottom || a.right < b.left || a.left > b.right);
 
-}
-    var game;
-    document.addEventListener("DOMContentLoaded", () => {
-            game = new Game();
-            game.start();
-        }
-    );
+    }

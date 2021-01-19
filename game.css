@@ -27,7 +27,7 @@ html {
 
 ul{
 	margin-left: 92%;
-	margin-top: -2.5%;
+	margin-top: -2%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -56,7 +56,7 @@ body button:hover {
 	align-items: center;
 	justify-content: center;
 	transition: all 1s;
-	animation: carga2 4s infinite;
+	animation: 4s infinite;
 	position: fixed;
 	background-color: rgb(92, 167, 95);
 }
