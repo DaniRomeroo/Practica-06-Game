@@ -1,6 +1,10 @@
 html {
   overflow: hidden;
   background-image: url("assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .Opponent {
@@ -26,7 +30,7 @@ html {
 }
 
 ul{
-	margin-left: 93%;
+	margin-left: 90%;
 	margin-top: -2%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 20px;
@@ -61,6 +65,10 @@ body button:hover {
 	animation: 4s infinite;
 	position: fixed;
 	background: #214579;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 @-webkit-keyframes rotate {
