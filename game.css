@@ -26,8 +26,11 @@ html {
 }
 
 ul{
+	margin-left: 93%;
+	margin-top: -2%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 20px;
+	color: white;
 }
 
 .gamebutton {
@@ -101,3 +104,4 @@ body button:hover {
 	animation: rotate 1s linear infinite;
 	fill: rgba(0, 0, 0, 0.2);
 }
+

@@ -44,5 +44,4 @@ setTimeout( function ()
         const a = div1.getBoundingClientRect(),
             b = div2.getBoundingClientRect();
         return !(a.bottom < b.top || a.top > b.bottom || a.right < b.left || a.left > b.right);
-
     }
