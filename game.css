@@ -1,6 +1,6 @@
 html {
   overflow: hidden;
-  background-color: rgb(92, 167, 95);
+  background-image: url("assets/background.jpg");
 }
 
 .Opponent {
@@ -57,7 +57,7 @@ body button:hover {
 	transition: all 1s;
 	animation: 4s infinite;
 	position: fixed;
-	background-color: rgb(92, 167, 95);
+	background: #214579;
 }
 
 @-webkit-keyframes rotate {

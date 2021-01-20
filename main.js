@@ -1,11 +1,12 @@
 setTimeout( function ()
 {
-    document.getElementById( 'loader' ).style.transform = "scale(0)";
+    /* document.getElementById( 'loader' ).style.transform = "rotate(7deg)"; */
+    document.getElementById( 'loader' ).remove();
     var game;
     game = new Game();
-    game.start();
+    game.start(); 
     
-}, 4000 );
+}, 5000 );
 
     const OPPONENT_HEIGHT = 5,
         OPPONENT_PICTURE = "assets/malo.png",
