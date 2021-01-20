@@ -61,7 +61,7 @@ body button:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: all 0.25s;
+	transition: all 0.15s;
 	position: fixed;
 	background: #214579;
 	background-repeat: no-repeat;
