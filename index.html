@@ -31,9 +31,30 @@
   </div>
 
 <body>
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input name="toggle" type="checkbox"/>
+      <label for="toggle">
+        <span>menu</span>
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+
+      <ul id="menu">
+        <a id="pause" class="gamebutton" onclick="this.blur();">
+          <li><strong>PAUSA</strong></li>
+        </a>
+        <a id="reset" class="gamebutton" onclick="this.blur();">
+          <li><strong>NUEVA PARTIDA</strong></li>
+        </a>
+      </ul>
+    </div>
+  </nav>
   <header>
-    <button id="pause" class="gamebutton" onclick="this.blur();"><strong>PAUSA</strong></button>
-    <button id="reset" class="gamebutton" onclick="this.blur();"><strong>NUEVA PARTIDA</strong></button>
+    <!-- <button id="pause" class="gamebutton" onclick="this.blur();"><strong>PAUSA</strong></button>
+    <button id="reset" class="gamebutton" onclick="this.blur();"><strong>NUEVA PARTIDA</strong></button> -->
       <ul>
         <li id="scoreli">Score: 0</li>
         <li id="livesli">Lives: 3</li>
