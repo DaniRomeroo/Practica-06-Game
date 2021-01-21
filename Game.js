@@ -93,7 +93,7 @@ class Game {
         if ( this.opponent ) {
             document.body.removeChild( this.opponent.image );
         }
-        if (this.score > 3) {
+        if (this.score > 2) {
             this.opponent = new Boss( this );
         }
         else {

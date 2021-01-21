@@ -32,7 +32,7 @@ setTimeout( function ()
         SHOT_SPEED = 20,
         SHOT_PICTURE_PLAYER = "assets/shot1.png",
         SHOT_PICTURE_OPPONENT = "assets/shot2.png",
-        SHOT_WIDTH = 1.5;
+        SHOT_WIDTH = 1.5,
         DEFAULT_LIVES = 3;
 
     function getRandomNumber (range) {
