@@ -1,3 +1,4 @@
+/* BASIC CSS */
 html {
   overflow: hidden;
   background-image: url("assets/background.jpg");
@@ -55,6 +56,7 @@ ul{
 	color: white;
 } */
 
+/* CSS LOADER */
 .loader {
 	width: 100%;
 	height: 100%;
@@ -112,6 +114,7 @@ ul{
 	fill: rgba(0, 0, 0, 0.2);
 }
 
+/* CSS MENU */
 #menuToggle {
 	display: block;
 	position: relative;
@@ -161,7 +164,7 @@ ul{
 	height: 2px;
 	margin-bottom: 6px;
 	position: relative;
-	background: grey;
+	background: white;
 	border-radius: 3px;
 	z-index: 1;
 	-webkit-transform-origin: 4px 0px;
@@ -185,7 +188,7 @@ ul{
 }
 
 #menuToggle input:checked+label div {
-	background: white;
+	background: grey;
 }
 
 #menu {
