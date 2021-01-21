@@ -1,4 +1,7 @@
 /* BASIC CSS */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 html {
   overflow: hidden;
   background-image: url("assets/background.jpg");
@@ -37,6 +40,7 @@ ul{
 	font-size: 20px;
 	color: white;
 	list-style-type: none;
+	font-family: 'Staatliches', cursive;
 }
 
 /*.gamebutton {
@@ -205,6 +209,7 @@ ul{
 	-webkit-transition: left 0.3s ease;
 	-o-transition: left 0.3s ease;
 	transition: left 0.3s ease;
+	font-family: 'Balsamiq Sans';
 }
 
 #menu li {
