@@ -119,14 +119,10 @@ ul{
 	left: 10px;
 	z-index: 1;
 	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 #menuToggle a {
-	text-decoration: none;
-	color: #232323;
+	color: white;
 	-webkit-transition: color 0.3s ease;
 	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
@@ -144,10 +140,8 @@ ul{
 	top: -7px;
 	left: -5px;
 	padding: 0;
-	cursor: pointer;
 	opacity: 0;
 	z-index: 2;
-	-webkit-touch-callout: none;
 }
 
 #menuToggle label {
@@ -167,7 +161,7 @@ ul{
 	height: 2px;
 	margin-bottom: 6px;
 	position: relative;
-	background: #cdcdcd;
+	background: grey;
 	border-radius: 3px;
 	z-index: 1;
 	-webkit-transform-origin: 4px 0px;
@@ -191,7 +185,7 @@ ul{
 }
 
 #menuToggle input:checked+label div {
-	background: #232323;
+	background: white;
 }
 
 #menu {
