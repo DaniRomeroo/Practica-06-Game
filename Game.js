@@ -90,11 +90,15 @@ class Game {
      * Elimina al oponente del juego
      */
     removeOpponent () {
-        if ( this.opponent )
-        {
+        if ( this.opponent ) {
             document.body.removeChild( this.opponent.image );
         }
-        this.opponent = new Boss( this );
+        if (this.score > 2) {
+            this.opponent = new Boss( this );
+        }
+        else {
+            this.opponent = new Opponent( this );
+        }
     }
 
     /**
