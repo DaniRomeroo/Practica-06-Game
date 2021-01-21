@@ -33,14 +33,15 @@ html {
 	}
 }
 
-ul{
-	margin-left: 90%;
-	margin-top: -1%;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.lista {
+	left: 90%;
+	top: 0px;
+	right: 0px;
 	font-size: 20px;
+	position: absolute;
 	color: white;
 	list-style-type: none;
-	font-family: 'Staatliches', cursive;
+	font-family: 'Staatliches',cursive;
 }
 
 /*.gamebutton {
@@ -70,6 +71,7 @@ ul{
 	justify-content: center;
 	transition: all 0.15s;
 	position: fixed;
+	z-index: 9999;
 	background: #214579;
 	background-repeat: no-repeat;
 	background-size: cover;
